@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cba832-8032-41de-bb89-7929677b3389" name="Changes" comment="Commit mMultiplicar">
-      <change beforePath="$PROJECT_DIR$/src/CalculadoraEntornos/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraEntornos/Principal.java" afterDir="false" />
+    <list default="true" id="26cba832-8032-41de-bb89-7929677b3389" name="Changes" comment="Commit tSumar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,8 @@
   "keyToString": {
     "Application.Principal.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.CalculadoraTest.restar.executor": "Run",
+    "JUnit.CalculadoraTest.sumar.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -49,7 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "gestionEntradaSalida",
+    "git-widget-placeholder": "testRestar",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/DAM1/2TRIM/Entornos/PracticaEntornos02/src/Main.java"
@@ -63,7 +66,7 @@
       <recent name="CalculadoraEntornos" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalculadoraTest.restar">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculadoraEntornos.Principal" />
       <module name="PracticaEntornos02" />
@@ -77,11 +80,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculadoraTest.restar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticaEntornos02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CalculadoraEntornos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CalculadoraEntornos" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraEntornos.CalculadoraTest" />
+      <option name="METHOD_NAME" value="restar(double,double,double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.sumar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticaEntornos02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CalculadoraEntornos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CalculadoraEntornos" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraEntornos.CalculadoraTest" />
+      <option name="METHOD_NAME" value="sumar(double,double,double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraTest.restar" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Principal" />
+        <item itemvalue="JUnit.CalculadoraTest.sumar" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Principal" />
       </list>
@@ -120,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709898810829</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit mDividir Static">
+      <option name="closed" value="true" />
+      <created>1709899616854</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709899616854</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit tSumar">
+      <option name="closed" value="true" />
+      <created>1709899679983</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709899679983</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +201,23 @@
     <MESSAGE value="Commit inicial" />
     <MESSAGE value="Commit mRestar" />
     <MESSAGE value="Commit mDividir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit mDividir" />
+    <MESSAGE value="Commit mDividir Static" />
+    <MESSAGE value="Commit tSumar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit tSumar" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java</url>
+          <line>33</line>
+          <properties class="CalculadoraEntornos.CalculadoraTest" method="restar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

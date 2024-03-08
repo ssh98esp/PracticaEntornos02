@@ -26,4 +26,13 @@ class CalculadoraTest {
         assertEquals(expectedResult,
                 Calculadora.sumar(num1,num2), 0.1);
     }
+
+    @ParameterizedTest(name = "La resta de {0} y {1} es {2}")
+    @CsvSource({"8, 5, 3",
+            "209, 9, 200",
+            "1.1, 5, -3.9"})
+    void restar(double num1, double num2, double expectedResult){
+        assertEquals(expectedResult,
+                Calculadora.restar(num1,num2), 0.1);
+    }
 }
