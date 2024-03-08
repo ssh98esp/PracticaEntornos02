@@ -44,4 +44,13 @@ class CalculadoraTest {
         assertEquals(expectedResult,
                 Calculadora.multiplicar(num1,num2), 0.1);
     }
+
+    @ParameterizedTest(name = "La division de {0} y {1} es {2}")
+    @CsvSource({"3, 3, 1",
+            "80, 10, 8",
+            "-786, 0, 0"})
+    void dividir(double num1, double num2, double expectedResult){
+        assertEquals(expectedResult,
+                Calculadora.dividir(num1,num2), 0.1);
+    }
 }
