@@ -35,4 +35,13 @@ class CalculadoraTest {
         assertEquals(expectedResult,
                 Calculadora.restar(num1,num2), 0.1);
     }
+
+    @ParameterizedTest(name = "La multiplicacion de {0} y {1} es {2}")
+    @CsvSource({"2, 5, 10",
+            "80, 10, 800",
+            "4, 4, 16"})
+    void multiplicar(double num1, double num2, double expectedResult){
+        assertEquals(expectedResult,
+                Calculadora.multiplicar(num1,num2), 0.1);
+    }
 }
