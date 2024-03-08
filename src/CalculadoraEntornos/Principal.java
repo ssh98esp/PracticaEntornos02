@@ -20,6 +20,7 @@ public class Principal {
             System.out.println("0.- Salir");
 
             op = sc.nextLine();
+            System.out.println();
 
             switch (op) {
                 case "1":
@@ -36,6 +37,7 @@ public class Principal {
                     System.out.println("La suma de "+num1+" y "+ num2+" es: "+sum.sumar(num1, num2));
 
                     sc.nextLine();
+                    System.out.println();
 
                     break;
                 case "2":
@@ -52,6 +54,7 @@ public class Principal {
                     System.out.println("La resta de "+num3+" y "+ num4+" es: "+res.restar(num3, num4));
 
                     sc.nextLine();
+                    System.out.println();
 
                     break;
                 case "3":
@@ -68,6 +71,7 @@ public class Principal {
                     System.out.println("La multiplicacion de "+num5+" y "+ num6+" es: "+mul.multiplicar(num5, num6));
 
                     sc.nextLine();
+                    System.out.println();
 
                     break;
                 case "4":
@@ -84,6 +88,7 @@ public class Principal {
                     System.out.println("La division de "+num7+" y "+ num8+" es: "+div.dividir(num7, num8));
 
                     sc.nextLine();
+                    System.out.println();
 
                     break;
                 case "0":
@@ -91,6 +96,7 @@ public class Principal {
                     break;
                 default:
                     System.out.println("Opcion no valida");
+                    System.out.println();
             }
 
 
