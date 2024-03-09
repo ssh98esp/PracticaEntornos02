@@ -18,7 +18,7 @@ class CalculadoraTest {
     }
 
     /**
-     * En este test parametrizado comprobamos si la batería de valores
+     * En este test parametrizado comprobamos si la bateria de valores
      * que insertamos funcionan en el método .sumar() de la clase Calculadora.
      * @param num1 primer valor del test
      * @param num2 segundo valor del test
@@ -33,13 +33,6 @@ class CalculadoraTest {
                 Calculadora.sumar(num1,num2), 0.1);
     }
 
-    /**
-     * En este test parametrizado comprobamos si la batería de valores
-     * que insertamos funcionan en el método .restar() de la clase Calculadora.
-     * @param num1 primer valor del test
-     * @param num2 segundo valor del test
-     * @param expectedResult resultado esperado del método
-     */
     @ParameterizedTest(name = "La resta de {0} y {1} es {2}")
     @CsvSource({"8, 5, 3",
             "209, 9, 200",
