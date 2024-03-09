@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26cba832-8032-41de-bb89-7929677b3389" name="Changes" comment="Commit tMultiplicar">
-      <change beforePath="$PROJECT_DIR$/src/CalculadoraEntornos/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraEntornos/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "metodoDividir",
+    "git-widget-placeholder": "testSumar",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/DAM1/2TRIM/Entornos/PracticaEntornos02/src/Main.java"
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculadoraTest.sumar" />
-        <item itemvalue="JUnit.CalculadoraTest.restar" />
-        <item itemvalue="JUnit.CalculadoraTest.multiplicar" />
         <item itemvalue="JUnit.CalculadoraTest.dividir" />
+        <item itemvalue="JUnit.CalculadoraTest.multiplicar" />
+        <item itemvalue="JUnit.CalculadoraTest.restar" />
         <item itemvalue="Application.Principal" />
+        <item itemvalue="JUnit.CalculadoraTest.sumar" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709900267849</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit Coment6">
+      <option name="closed" value="true" />
+      <created>1709994530090</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709994530090</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,7 +249,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="metodoRestar" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -262,6 +270,7 @@
     <MESSAGE value="Commit tMultiplicar" />
     <MESSAGE value="Commit Final1" />
     <MESSAGE value="Commit Final2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Final2" />
+    <MESSAGE value="Commit Coment6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Coment6" />
   </component>
 </project>

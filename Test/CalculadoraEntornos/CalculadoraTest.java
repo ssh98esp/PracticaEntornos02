@@ -17,6 +17,13 @@ class CalculadoraTest {
     void tearDown() {
     }
 
+    /**
+     * En este test parametrizado comprobamos si la bateria de valores
+     * que insertamos funcionan en el método .sumar() de la clase Calculadora.
+     * @param num1 primer valor del test
+     * @param num2 segundo valor del test
+     * @param expectedResult resultado esperado del método
+     */
     @ParameterizedTest(name = "La suma de {0} y {1} es {2}")
     @CsvSource({"5, 5, 10",
             "10, 15, 25",
