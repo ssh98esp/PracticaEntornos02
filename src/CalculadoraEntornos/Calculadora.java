@@ -6,6 +6,9 @@ package CalculadoraEntornos;
 
 public class Calculadora {
 
+    public Calculadora() {
+    }
+
     /**
      * El metodo devuelve un double como resultado de la suma de los
      * parámetros que le facilitamos.
