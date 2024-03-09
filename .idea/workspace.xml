@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cba832-8032-41de-bb89-7929677b3389" name="Changes" comment="Commit tMultiplicar">
+    <list default="true" id="26cba832-8032-41de-bb89-7929677b3389" name="Changes" comment="Commit Coment8">
       <change beforePath="$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "testSumar",
+    "git-widget-placeholder": "testDividir",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/DAM1/2TRIM/Entornos/PracticaEntornos02/src/Main.java"
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculadoraTest.dividir" />
-        <item itemvalue="JUnit.CalculadoraTest.multiplicar" />
-        <item itemvalue="JUnit.CalculadoraTest.restar" />
-        <item itemvalue="Application.Principal" />
         <item itemvalue="JUnit.CalculadoraTest.sumar" />
+        <item itemvalue="JUnit.CalculadoraTest.restar" />
+        <item itemvalue="JUnit.CalculadoraTest.multiplicar" />
+        <item itemvalue="JUnit.CalculadoraTest.dividir" />
+        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>

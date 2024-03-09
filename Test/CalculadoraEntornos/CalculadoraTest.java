@@ -65,6 +65,13 @@ class CalculadoraTest {
                 Calculadora.multiplicar(num1,num2), 0.1);
     }
 
+    /**
+     * En este test parametrizado comprobamos si la batería de valores
+     * que insertamos funcionan en el método .dividir() de la clase Calculadora.
+     * @param num1 primer valor del test
+     * @param num2 segundo valor del test
+     * @param expectedResult resultado esperado del método
+     */
     @ParameterizedTest(name = "La division de {0} y {1} es {2}")
     @CsvSource({"3, 3, 1",
             "80, 10, 8",
