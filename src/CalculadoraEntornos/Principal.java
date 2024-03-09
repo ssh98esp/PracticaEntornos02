@@ -2,6 +2,10 @@ package CalculadoraEntornos;
 
 import java.util.Scanner;
 
+/**
+ * @author Samuel Salguero
+ */
+
 public class Principal {
 
     static Scanner sc = new Scanner(System.in);

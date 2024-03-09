@@ -1,5 +1,9 @@
 package CalculadoraEntornos;
 
+/**
+ * @author Samuel Salguero
+ */
+
 public class Calculadora {
 
     /**
