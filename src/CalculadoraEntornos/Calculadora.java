@@ -13,6 +13,13 @@ public class Calculadora {
         return num1 + num2;
     }
 
+    /**
+     * El metodo devuelve un double como resultado de la resta de los
+     * parámetros que le facilitamos.
+     * @param num1 Primer número de la operación
+     * @param num2 Segundo número de la operación
+     * @return Devuelve el resultado de la operación
+     */
     public static double restar(double num1, double num2) {
         return num1 - num2;
     }
