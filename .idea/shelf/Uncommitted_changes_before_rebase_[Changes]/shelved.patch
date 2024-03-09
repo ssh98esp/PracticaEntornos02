@@ -1,0 +1,136 @@
+Index: PracticaEntornos02.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/Test\" isTestSource=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"module-library\" scope=\"TEST\">\r\n      <library name=\"JUnit5.8.1\">\r\n        <CLASSES>\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar!/\" />\r\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar!/\" />\r\n        </CLASSES>\r\n        <JAVADOC />\r\n        <SOURCES />\r\n      </library>\r\n    </orderEntry>\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PracticaEntornos02.iml b/PracticaEntornos02.iml
+--- a/PracticaEntornos02.iml	(revision 4798614334a60d4f3f091ccf4eace6962776135c)
++++ b/PracticaEntornos02.iml	(date 1710002625159)
+@@ -25,4 +25,7 @@
+       </library>
+     </orderEntry>
+   </component>
++  <component name="SonarLintModuleSettings">
++    <option name="uniqueId" value="ccff4b30-4eff-41fc-b3b1-23f80caba1d0" />
++  </component>
+ </module>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"17\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 4798614334a60d4f3f091ccf4eace6962776135c)
++++ b/.idea/misc.xml	(date 1710002625164)
+@@ -1,5 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="JavadocGenerationManager">
++    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/documentacionJavadoc" />
++    <option name="OPTION_SCOPE" value="public" />
++  </component>
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"26cba832-8032-41de-bb89-7929677b3389\" name=\"Changes\" comment=\"Commit Coment8\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/CalculadoraEntornos/Calculadora.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/CalculadoraEntornos/Calculadora.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/CalculadoraEntornos/Principal.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/CalculadoraEntornos/Principal.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"JUnit5 Test Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2dOvUJiDjCe11j1JgERc2kIGNvH\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Principal.executor\": \"Run\",\r\n    \"Downloaded.Files.Path.Enabled\": \"false\",\r\n    \"JUnit.CalculadoraTest.multiplicar.executor\": \"Run\",\r\n    \"JUnit.CalculadoraTest.restar.executor\": \"Run\",\r\n    \"JUnit.CalculadoraTest.sumar.executor\": \"Run\",\r\n    \"Repository.Attach.Annotations\": \"false\",\r\n    \"Repository.Attach.JavaDocs\": \"false\",\r\n    \"Repository.Attach.Sources\": \"false\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary\": \"JUnit5\",\r\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5\": \"\",\r\n    \"git-widget-placeholder\": \"gestionEntradaSalida\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"D:/DAM1/2TRIM/Entornos/PracticaEntornos02/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateTestDialog.Recents.Supers\">\r\n      <recent name=\"\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.RecentsKey\">\r\n      <recent name=\"CalculadoraEntornos\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.CalculadoraTest.dividir\">\r\n    <configuration name=\"Principal\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CalculadoraEntornos.Principal\" />\r\n      <module name=\"PracticaEntornos02\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"CalculadoraEntornos.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CalculadoraTest.dividir\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PracticaEntornos02\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"CalculadoraEntornos.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"CalculadoraEntornos\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CalculadoraEntornos.CalculadoraTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"dividir(double,double,double)\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CalculadoraTest.multiplicar\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PracticaEntornos02\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"CalculadoraEntornos.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"CalculadoraEntornos\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CalculadoraEntornos.CalculadoraTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"multiplicar(double,double,double)\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CalculadoraTest.restar\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PracticaEntornos02\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"CalculadoraEntornos.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"CalculadoraEntornos\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CalculadoraEntornos.CalculadoraTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"restar(double,double,double)\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CalculadoraTest.sumar\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PracticaEntornos02\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"CalculadoraEntornos.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"CalculadoraEntornos\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CalculadoraEntornos.CalculadoraTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"sumar(double,double,double)\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.CalculadoraTest.sumar\" />\r\n        <item itemvalue=\"JUnit.CalculadoraTest.restar\" />\r\n        <item itemvalue=\"JUnit.CalculadoraTest.multiplicar\" />\r\n        <item itemvalue=\"JUnit.CalculadoraTest.dividir\" />\r\n        <item itemvalue=\"Application.Principal\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"26cba832-8032-41de-bb89-7929677b3389\" name=\"Changes\" comment=\"\" />\r\n      <created>1709891956117</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1709891956117</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Commit inicial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709892140995</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709892140995</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Commit mRestar\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709898702773</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709898702773</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Commit mDividir\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709898810829</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709898810829</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Commit mDividir Static\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709899616854</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709899616854</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Commit tSumar\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709899679983</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709899679983</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Commit tMultiplicar\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709900023038</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709900023038</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Commit Final1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709900186661</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709900186661</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Commit Final2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709900267849</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709900267849</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Commit Coment6\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709994530090</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709994530090</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Commit inicial\" />\r\n    <MESSAGE value=\"Commit mRestar\" />\r\n    <MESSAGE value=\"Commit mDividir\" />\r\n    <MESSAGE value=\"Commit mDividir Static\" />\r\n    <MESSAGE value=\"Commit tSumar\" />\r\n    <MESSAGE value=\"Commit tMultiplicar\" />\r\n    <MESSAGE value=\"Commit Final1\" />\r\n    <MESSAGE value=\"Commit Final2\" />\r\n    <MESSAGE value=\"Commit Coment6\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Commit Coment6\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4798614334a60d4f3f091ccf4eace6962776135c)
++++ b/.idea/workspace.xml	(date 1710002984018)
+@@ -4,11 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="26cba832-8032-41de-bb89-7929677b3389" name="Changes" comment="Commit Coment8">
++    <list default="true" id="26cba832-8032-41de-bb89-7929677b3389" name="Changes" comment="Commit Coment10">
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CalculadoraEntornos/CalculadoraTest.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/CalculadoraEntornos/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraEntornos/Calculadora.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/CalculadoraEntornos/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraEntornos/Principal.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/PracticaEntornos02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaEntornos02.iml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -26,7 +25,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="gestionEntradaSalida" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -42,6 +41,7 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "ASKED_ADD_EXTERNAL_FILES": "true",
+     "Application.Principal.executor": "Run",
+     "Downloaded.Files.Path.Enabled": "false",
+     "JUnit.CalculadoraTest.multiplicar.executor": "Run",
+@@ -55,10 +55,11 @@
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+-    "git-widget-placeholder": "gestionEntradaSalida",
++    "git-widget-placeholder": "master",
+     "ignore.virus.scanning.warn.message": "true",
+     "kotlin-language-version-configured": "true",
+-    "onboarding.tips.debug.path": "D:/DAM1/2TRIM/Entornos/PracticaEntornos02/src/Main.java"
++    "onboarding.tips.debug.path": "D:/DAM1/2TRIM/Entornos/PracticaEntornos02/src/Main.java",
++    "settings.editor.selected.configurable": "preferences.pluginManager"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+@@ -156,6 +157,13 @@
+         <item itemvalue="Application.Principal" />
+       </list>
+     </recent_temporary>
++  </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
++      </set>
++    </attachedChunks>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -238,7 +246,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1709994530090</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="Commit Coment10">
++      <option name="closed" value="true" />
++      <created>1709995888250</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1709995888250</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -274,6 +290,7 @@
+     <MESSAGE value="Commit Final1" />
+     <MESSAGE value="Commit Final2" />
+     <MESSAGE value="Commit Coment6" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Commit Coment6" />
++    <MESSAGE value="Commit Coment10" />
++    <option name="LAST_COMMIT_MESSAGE" value="Commit Coment10" />
+   </component>
+ </project>
+\ No newline at end of file
