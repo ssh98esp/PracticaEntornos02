@@ -1,6 +1,14 @@
 package CalculadoraEntornos;
 
 public class Calculadora {
+
+    /**
+     * El metodo devuelve un double como resultado de la suma de los
+     * parámetros que le facilitamos.
+     * @param num1 Primer número de la operación
+     * @param num2 Segundo número de la operación
+     * @return Devuelve el resultado de la operación
+     */
     public static double sumar(double num1, double num2) {
         return num1 + num2;
     }
