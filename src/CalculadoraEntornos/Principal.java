@@ -6,6 +6,15 @@ public class Principal {
 
     static Scanner sc = new Scanner(System.in);
 
+    /**
+     * En el main de la clase principal crearemos el menú que se debe mostrar
+     *y pediremos al usuario que eleja una opción. Si elije una del 1-4 crearemos
+     * un objeto Calculadora nuevo y ejecuatremos el metodo correspondiente. Si se
+     * elige 0 se cerrará el programa mostrando un mensaje de despedida. En cada
+     * uno de las opciones del 1-4 le pediremos y crearemos un par de double que
+     * serán los número que usaremos para la operación correspondiente.
+     */
+
     public static void main(String[] args) {
 
         String op;
